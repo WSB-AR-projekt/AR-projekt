@@ -1,0 +1,84 @@
+@import url("normalize.css");
+
+@import url("AR_mainTags.css");
+/**
+ * Tags available on thematic galleries from Andrzej Rokosz's Gallery in tab <body> </body>
+ */
+.photo-themaGallery-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 980px;
+  height: 554px;
+}
+
+.photo-themaGallery-logoHolder {
+  width: 168px;
+  height: 166px;
+  border-radius: 4px;
+  background-color: #827632;
+}
+
+.photo-themaGallery-logo:hover,
+.photo-themaGallery-logo:active {
+  border: 1px solid #be3c00;
+  box-shadow: 0 0 2px 1px #be3c00;
+}
+
+.photo-themaGallery-logoHolder:hover {
+  background-color: #be3c00;
+}
+
+.photo-themaGallery-logo {
+  width: 168px;
+  height: 166px;
+  border: 1px solid #827632;
+  border-radius: 4px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.photo-themaGallery-navigation {
+  width: 980px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.photo-themaGallery-direction {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.photo-themaGallery-direction:hover,
+.photo-themaGallery-direction:active {
+  font-size: 150%;
+}
+
+.photo-themaGallery-pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-themaGallery-pagination div {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 28px;
+}
+
+.photo-themaGallery-pagination a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}

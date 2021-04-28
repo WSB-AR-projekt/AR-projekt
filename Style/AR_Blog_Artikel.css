@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+body {
+  background: #edf0f4;
+  font-size: 1.1em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #999;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.post-body {
+  background: #fff;
+  max-width: 720px;
+  margin: 5% auto;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.post-body p {
+  padding: 0 30px;
+}
+
+.post-body img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+  vertical-align: middle;
+  transition: all 0.6s ease;
+}
+
+.post-body .separator:hover img {
+  transform: translate(0, -60px);
+  transition: all 9s ease;
+}
+
+.separator {
+  position: relative;
+  clear: both;
+  text-align: center;
+  margin: 0 auto 30px auto;
+  max-height: 320px;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+
+.separator:before,
+.separator.tiga:before,
+.separator.empat:before,
+.separator.lima:before,
+.separator.enam:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: #e67e22;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s ease;
+}
+
+.separator.tiga:before {
+  background: #3498db;
+}
+
+.separator.empat:before {
+  background: #2ecc71;
+}
+
+.separator.lima:before {
+  background: #e74c3c;
+}
+
+.separator.enam:before {
+  background: #e67e22;
+}
+
+.separator:after {
+  content: "Arlina Code";
+  position: absolute;
+  top: 30%;
+  bottom: 0;
+  right: 0;
+  left: -70px;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s ease;
+  transition-delay: 0s;
+}
+
+.separator .dua:after {
+  content: "Tutorial Blogger";
+  position: absolute;
+  top: 60%;
+  bottom: 0;
+  right: -70px;
+  left: 0;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.6s ease;
+  transition-delay: 0s;
+}
+
+.separator:hover:before {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+.separator:hover:after,
+.separator.tiga:hover:after,
+.separator.empat:hover:after,
+.separator.lima:hover:after,
+.separator.enam:hover:after,
+.separator:hover .dua:after {
+  left: 0;
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 1.2s;
+}
+
+.separator:hover .dua:after {
+  transition-delay: 1.8s;
+}
+
+span.right {
+  background: #3498db;
+  color: #fff;
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px 10px 0 0;
+  margin: 0 0 30px 0;
+  font-weight: 700;
+}
+
+span.right i {
+  margin: 0 10px 0 0;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 640px) {
+  .post-body {
+    margin: 5% 10px;
+    border-radius: 5px;
+  }
+}

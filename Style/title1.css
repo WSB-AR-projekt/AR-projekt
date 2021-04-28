@@ -1,0 +1,13 @@
+body {
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.ar active {
+  text-decoration: underline;
+  text-underline-position: 3;
+}

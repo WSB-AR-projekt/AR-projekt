@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="content-language" content="pl" />
+  <meta
+    name="author"
+    content="Anna Wilk, Aleksandra Kondraciuk, Paweł Ślimko"
+  />
+  <meta name="google" content="notranslate" />
+  <title>Andrzej Rokosz Fotogaleria</title>
+  <meta name="description" content="Andrzej Rokosz Fotogaleria" />
+  <meta
+    name="keywords"
+    content="Andrzej Rokosz Fotogaleria; foto; Andrzej Rokosz; zdjecia; blog; fotografia; przyroda; zwierzeta; ludzie"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="style/AR_specificPhoto.css"
+  />
+</head>
+
+<body>
+  <div class="photo-main-container">
+    <header class="photo-header-container">
+      <div class="photo-signature">
+        <h1 class="photo-header-author">ANDRZEJ</h1>
+        <h1 class="photo-header-author">ROKOSZ</h1>
+      </div>
+      <nav class="photo-main-nav">
+        <nav class="photo-main-nav">
+          <a class="photo-class-links" id="about" href="AR_AboutMe.html">O mnie</a>
+          <a
+            class="photo-class-links"
+            id="actual-active-link"
+            rel="_parent"
+            href="AR_mainGallery.html"
+            >Zdjęcia
+          </a>
+  
+          <a class="photo-class-links" id="blog" href="AR_Blog.html">Blog</a>
+  
+          <a class="photo-class-links" id="kontakt" href="AR_Contact.html">Kontakt</a>
+        </nav>
+    </header>
+
+    <div class="photo-empty-line-container">
+      <form class="photo-search-form">
+        <input
+          class="photo-search-input"
+          type="text"
+          placeholder="..."
+          name="search"
+        />
+        <button class="photo-search-button" type="submit">Szukaj</button>
+      </form>
+    </div>
+
+    <div class="photo-body-container">
+      <div class="photo-specific-image-elements-container">
+        <div class="photo-specific-image-display-and-prev-nav">
+          <a href="#" class="photo-direction" id="photo-specific-previous">
+            &laquo-- Poprzednie zdjęcie</a
+          >
+          <div class="photo-specific-display">
+            <img
+              src="images/zubry.jpg"
+              class="photo-specific-image"
+              alt="Test specific image"
+              decoding="async"
+            />
+          </div>
+          <div class="photo-specific-image-details-and-next-nav">
+            <a href="#" class="photo-direction" id="photo-specific-next">
+              Następne zdjęcie --&raquo
+            </a>
+
+            <details class="photo-specific-image-details">
+              <summary class="photo-specific-image-summary">
+                Dane zdjęcia
+              </summary>
+
+              <div class="photo-specific-header" id="header-title">Tytuł</div>
+              <div class="photo-specific-text" id="text-title">Tytuł</div>
+
+              <div class="photo-specific-header" id="header-desc">Opis</div>
+              <div class="photo-specific-longer-text" id="text-desc">Opis</div>
+              <div class="photo-specific-header" id="header-keywords">
+                Słowa kluczowe
+              </div>
+              <div class="photo-specific-longer-text" id="text-keywords">
+                Słowa kluczowe
+              </div>
+              <div class="photo-specific-header" id="header-themGroup">
+                Grupa tematyczna
+              </div>
+              <div class="photo-specific-text" id="text-themGroup">
+                Grupa tematyczna
+              </div>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <div class="photo-specific-original-button">
+        <a href="images/zubry.jpg" class="photo-specific-original-link"
+          >Oryginalny rozmiar
+        </a>
+        <div class="photo-specific-original-counter">
+          X osób obejrzało zdjęcie w oryginalnym rozmiarze
+        </div>
+      </div>
+    </div>
+    <div class="photo-specific-comments">Tu bedzie plugin na komentarze</div>
+  </div>
+
+  <script src="..." async></script>
+  <noscript> Your internet browser is too old. Install new one. </noscript>
+
+</body>

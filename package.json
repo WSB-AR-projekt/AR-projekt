@@ -1,0 +1,14 @@
+{
+  "name": "andrzej_rokosz",
+  "version": "1.0.0",
+  "description": "WSB projekt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WSB"
+  ],
+  "author": "Paweł Ślimko, Ania Wilk, Ola Kondraciuk",
+  "license": "MIT"
+}

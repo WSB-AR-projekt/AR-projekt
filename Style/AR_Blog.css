@@ -1,0 +1,113 @@
+@import url("normalize.css");
+
+@import url("AR_mainTags.css");
+
+
+
+.photo-artikel-container {
+  /**zawartość*/
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  transition: width 3s;
+}
+
+
+.artikel ul {
+  /**linki do artykułów*/
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  color: #fff;
+  padding-top: 2rem;
+  padding: 5rem;
+  transition: 3s;
+  transform: scale (1.5);
+}
+.artikel ul a:link {
+  /**linki do artykułów*/
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  float: left;
+  color: #fff;
+  padding-top: 0.5rem;
+  padding: 0.5rem;
+  transition: 3s;
+}
+.artikel ul a:active {
+  /**linki do artykułów*/
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  float: left;
+  color: #fff;
+  transition: 3s;
+}
+.artikel ul a:hover {
+  /**linki do artykułów*/
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  float: left;
+  color: #fff;
+  transition: 3s;
+  transform: scale(1.5);
+}
+.artikel ul a:visited {
+  /**linki do artykułów*/
+  list-style: none;
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  float: left;
+  color: #fff;
+  transition: 3s;
+}
+.next-wrap {
+  /**okienko bloga*/
+  float:right;
+  max-width: 730px;
+  margin: 2% auto;
+  padding: 20px 20px 80px 20px;
+  background: #fff;
+  color: #827632;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  line-height: normal;
+  border-radius: 10px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+.separator {
+  overflow: hidden;
+  max-height: 240px;
+  margin: 0 0 20px 0;
+  background-color: #a8c781;
+  
+}
+.separator img {/**obrazek w blogu*/
+  max-height: max-content; 
+  max-width: max-content; 
+}
+
+
+.photo-blog-image{
+  border: none;
+  height:300;
+  width:640;
+}
+

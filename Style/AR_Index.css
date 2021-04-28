@@ -1,0 +1,45 @@
+body {
+  background-image: url(../Images/tlo.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 170px;
+  bottom: 0;
+  margin: auto;
+  font-size: 95px;
+  transition: 1s;
+  font-family: Arial;
+  font-variant-ligatures: historical-ligatures;
+}
+h2 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 300px;
+  bottom: 0;
+  margin: auto;
+  font-size: 20px;
+  transition: 1s;
+  font-family: Century Gothic;
+  letter-spacing: 0.5em;
+  font-variant-ligatures: historical-ligatures;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
