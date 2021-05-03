@@ -1,10 +1,10 @@
 /**
  * Tags available on all sites of Andrzej Rokosz's Gallery in tab <body> </body>
  */
- 
- body {
 
+body {
   background-color: #a8c781;
+  box-sizing: border-box;
 }
 
 /**
@@ -30,16 +30,13 @@ html a:visited {
   align-items: stretch;
 }
 
-
 .photo-signature {
   /**tytuł Andrzej Rokosz*/
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 200px;
-    align-items: flex-start;
-  transition: 3s;
-  transform: scale (1.5);
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 200px;
+  align-items: flex-start;
 }
 
 .photo-header-author {
@@ -52,18 +49,14 @@ html a:visited {
   padding: 0;
 }
 
-
 .photo-main-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-end;
-
 }
 
-
 .photo-class-links {
-
   width: 200px;
   line-height: 10px;
   text-align: center;
@@ -75,7 +68,6 @@ html a:visited {
   color: #fff;
   transition: 3s;
   padding-right: 6rem;
-  
 }
 
 .photo-class-links:hover {
@@ -87,19 +79,6 @@ html a:visited {
 .photo-class-links:active {
   font-size: 160%;
   color: #fff;
-  
-}
-
-
-.photo-class-links:hover,
-.photo-class-links:active {
-  /**linki do stron: O mnie, Zdjęcia, Blog, Kontakt*/
-
-  text-align: center;
-  color: #fff;
-  text-decoration: none;
-  transition: 3s;
-  font-size: 160%;
 }
 
 #actual-active-link {
@@ -147,7 +126,7 @@ html a:visited {
   background: #a8c781;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color:#827632;
+  color: #827632;
   background-color: #fff;
   text-align: center;
   border: #827632 solid 2px;
@@ -183,3 +162,4 @@ html a:visited {
   display: flex;
   flex-direction: column;
 }
+
