@@ -10,5 +10,8 @@
     "WSB"
   ],
   "author": "Paweł Ślimko, Ania Wilk, Ola Kondraciuk",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }

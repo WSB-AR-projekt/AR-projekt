@@ -1,0 +1,185 @@
+/**
+ * Tags available on all sites of Andrzej Rokosz's Gallery in tab <body> </body>
+ */
+ 
+ body {
+
+  background-color: #a8c781;
+}
+
+/**
+to "reset" change of color for visited links on all pages
+*/
+html a:visited {
+  color: #fff;
+}
+
+.photo-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.photo-header-container {
+  display: flex;
+  flex-direction: row;
+  height: 105px;
+  width: 1024px;
+  align-items: stretch;
+}
+
+
+.photo-signature {
+  /**tytuł Andrzej Rokosz*/
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    align-items: flex-start;
+  transition: 3s;
+  transform: scale (1.5);
+}
+
+.photo-header-author {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 31px;
+  font-style: bold;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+
+.photo-main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+
+.photo-class-links {
+
+  width: 200px;
+  line-height: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  transition: 3s;
+  padding-right: 6rem;
+  
+}
+
+.photo-class-links:hover {
+  background-color: none;
+  color: #fff;
+}
+
+.photo-class-links:hover,
+.photo-class-links:active {
+  font-size: 160%;
+  color: #fff;
+  
+}
+
+
+.photo-class-links:hover,
+.photo-class-links:active {
+  /**linki do stron: O mnie, Zdjęcia, Blog, Kontakt*/
+
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: 3s;
+  font-size: 160%;
+}
+
+#actual-active-link {
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: none;
+  font-size: 160%;
+  color: #fff;
+}
+
+.photo-empty-line-container {
+  width: 1024px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.photo-search-form {
+  max-width: 270px;
+  max-height: 30px;
+  border: 2px solid #827632;
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-search-form:hover {
+  background-color: #be3c00;
+  border: 2px solid #be3c00;
+}
+
+.photo-search-form:hover > .photo-search-button {
+  background-color: #be3c00;
+  border: 2px solid #be3c00;
+}
+
+.photo-search-form:hover > .photo-search-input {
+  border: 2px solid #be3c00;
+}
+
+.photo-search-input {
+  padding: 10px;
+  width: 70%;
+  background: #a8c781;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color:#827632;
+  background-color: #fff;
+  text-align: center;
+  border: #827632 solid 2px;
+  cursor: pointer;
+}
+
+.photo-search-button {
+  padding: 12px;
+  background-color: #827632;
+  border: 1px solid #827632;
+  padding: 4px;
+  width: 31%;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.photo-search-button:visited {
+  color: #fff;
+}
+
+.photo-search-form:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.photo-body-container {
+  display: flex;
+  flex-direction: column;
+}

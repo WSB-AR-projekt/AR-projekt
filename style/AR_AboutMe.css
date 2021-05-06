@@ -1,0 +1,47 @@
+@import url("normalize.css");
+
+@import url("AR_mainTags.css");
+
+/**
+ * Tags available on AboutMe page  of Andrzej Rokosz's Gallery in tab <body> </body>
+ */
+
+.photo-logo-background {
+  background-image: url(../Images/biedronka.jpg);
+  background-size: 100%;
+  background-repeat: repeat-x;
+  background-position: center top;
+  backface-visibility: visible;
+}
+
+#photo-body-presentation-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 750px;
+}
+
+#photo-smallLogo-image {
+  width: 504px;
+  height: 279px;
+  border: black solid 1px;
+  color: white;
+  background-color: #a8c781;
+}
+/**
+ * here will be text about photographer
+ */
+#photo-body-text {
+  border: #827632 solid 1px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: #827632;
+  width: 520px;
+  height: 479px;
+  overflow: scroll;
+  background-color: #fff;
+  padding: 0px;
+}
