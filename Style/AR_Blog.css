@@ -2,8 +2,6 @@
 
 @import url("AR_mainTags.css");
 
-
-
 .photo-artikel-container {
   /**zawartość*/
   display: flex;
@@ -15,7 +13,6 @@
   color: #fff;
   transition: width 3s;
 }
-
 
 .artikel ul {
   /**linki do artykułów*/
@@ -79,7 +76,7 @@
 }
 .next-wrap {
   /**okienko bloga*/
-  float:right;
+  float: right;
   max-width: 730px;
   margin: 2% auto;
   padding: 20px 20px 80px 20px;
@@ -97,17 +94,15 @@
   max-height: 240px;
   margin: 0 0 20px 0;
   background-color: #a8c781;
-  
 }
-.separator img {/**obrazek w blogu*/
-  max-height: max-content; 
-  max-width: max-content; 
+.separator img {
+  /**obrazek w blogu*/
+  max-height: max-content;
+  max-width: max-content;
 }
 
-
-.photo-blog-image{
+.photo-blog-image {
   border: none;
-  height:300;
-  width:640;
+  height: 300;
+  width: 640;
 }
-

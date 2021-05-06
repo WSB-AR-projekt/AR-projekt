@@ -35,7 +35,6 @@
           <a
             class="photo-class-links"
             id="actual-active-link"
-            rel="_parent"
             href="AR_mainGallery.html"
             >Zdjęcia
           </a>
@@ -47,23 +46,18 @@
     </header>
 
     <div class="photo-empty-line-container">
-      <form class="photo-search-form">
+     <!--<form class="photo-search-form">
         <input
           class="photo-search-input"
           type="text"
           placeholder="..."
           name="search"
         />
-        <button class="photo-search-button" type="submit">Szukaj</button>
-      </form>
+        <button class="photo-search-button" type="submit">Szukaj</button> ---> 
     </div>
 
-    <div class="photo-body-container">
-      <div class="photo-specific-image-elements-container">
-        <div class="photo-specific-image-display-and-prev-nav">
-          <a href="#" class="photo-direction" id="photo-specific-previous">
-            &laquo-- Poprzednie zdjęcie</a
-          >
+  
+        <div class="photo-specific-photo-container">
           <div class="photo-specific-display">
             <img
               src="images/zubry.jpg"
@@ -71,38 +65,10 @@
               alt="Test specific image"
               decoding="async"
             />
+            <a class="photo-specific-prev" >&#10094;</a>
+            <a class="photo-specific-next" >&#10095;</a>
           </div>
-          <div class="photo-specific-image-details-and-next-nav">
-            <a href="#" class="photo-direction" id="photo-specific-next">
-              Następne zdjęcie --&raquo
-            </a>
-
-            <details class="photo-specific-image-details">
-              <summary class="photo-specific-image-summary">
-                Dane zdjęcia
-              </summary>
-
-              <div class="photo-specific-header" id="header-title">Tytuł</div>
-              <div class="photo-specific-text" id="text-title">Tytuł</div>
-
-              <div class="photo-specific-header" id="header-desc">Opis</div>
-              <div class="photo-specific-longer-text" id="text-desc">Opis</div>
-              <div class="photo-specific-header" id="header-keywords">
-                Słowa kluczowe
-              </div>
-              <div class="photo-specific-longer-text" id="text-keywords">
-                Słowa kluczowe
-              </div>
-              <div class="photo-specific-header" id="header-themGroup">
-                Grupa tematyczna
-              </div>
-              <div class="photo-specific-text" id="text-themGroup">
-                Grupa tematyczna
-              </div>
-            </details>
-          </div>
-        </div>
-      </div>
+        
 
       <div class="photo-specific-original-button">
         <a href="images/zubry.jpg" class="photo-specific-original-link"
@@ -112,10 +78,29 @@
           X osób obejrzało zdjęcie w oryginalnym rozmiarze
         </div>
       </div>
-    </div>
-    <div class="photo-specific-comments">Tu bedzie plugin na komentarze</div>
-  </div>
 
+      <div class="photo-specific-image-details">
+    <!--    <summary class="photo-specific-image-summary">
+          Dane zdjęcia
+        </summary> --->
+
+
+        <div class="photo-specific-header" id="header-title">Tytuł</div>
+        <div class="photo-specific-text" id="text-title">Tytuł</div>
+        <div class="photo-specific-header" id="header-desc">Opis</div>
+        <div class="photo-specific-text" id="text-desc">Opis</div>
+        <div class="photo-specific-header" id="header-themGroup">
+          Grupa tematyczna
+        </div>
+        <div class="photo-specific-text" id="text-themGroup">
+          Grupa tematyczna
+        </div>
+      </div>
+
+      <div class="photo-specific-comments">Tu bedzie plugin na komentarze</div>
+    </div>
+
+    
   <script src="..." async></script>
   <noscript> Your internet browser is too old. Install new one. </noscript>
 

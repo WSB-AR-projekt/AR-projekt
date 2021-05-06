@@ -12,36 +12,44 @@
   background-repeat: repeat-x;
   background-position: center top;
   backface-visibility: visible;
+  background-color: #fff;
 }
 
-#photo-body-presentation-container {
-  display: flex;
-  flex-direction: row;
+.photo-about-me-container {
   align-self: center;
   align-items: flex-start;
-  margin-top: 40px;
   margin-left: 750px;
+  transition: 3s;
 }
 
-#photo-smallLogo-image {
-  width: 504px;
-  height: 279px;
-  border: black solid 1px;
-  color: white;
-  background-color: #a8c781;
-}
 /**
  * here will be text about photographer
  */
-#photo-body-text {
-  border: #827632 solid 1px;
-  border-radius: 10px;
+.photo-about-me-text {
+  border: 1px solid #ccc;
+  border-radius: 6px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   color: #827632;
   width: 520px;
-  height: 479px;
-  overflow: scroll;
+  height: 450px;
+  overflow-y: scroll;
+  overflow-x: hidden;
   background-color: #fff;
-  padding: 0px;
+  padding: 12px;
+}
+
+.photo-footer {
+  width: 1000px;
+  height: 30px;
+  align-self: center;
+  border: 1px solid #ccc;
+  margin-top: 25px;
+  background-color: #fff;
+  opacity: 0.4;
+  border-radius: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-weight: bold;
+  padding: 6px;
 }
