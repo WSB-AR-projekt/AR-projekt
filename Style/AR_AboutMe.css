@@ -40,8 +40,8 @@
 }
 
 .photo-footer {
-  height: 22px;
-  align-self:stretch;
+  height: 30px;
+  align-self:center;
   border: 1px solid #ccc;
   margin-top: 10px;
   background-color: #fff;
@@ -50,5 +50,6 @@
   font-size: 12px;
   color: #827632;
   text-align:center;
-  padding: 6px;
+  font-weight: bold;
+  padding: 8px;
 }

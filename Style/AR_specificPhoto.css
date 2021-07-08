@@ -32,7 +32,7 @@
 .photo-specific-prev,
 .photo-specific-next {
   cursor: pointer;
-  position: absolute;
+  position:absolute;
   top: 60%;
   padding: 16px;
   margin-top: 100px;
@@ -46,6 +46,11 @@
 
 .photo-specific-next {
   right: 300px;
+  border-radius: 3px 0 0 3px;
+}
+
+.photo-specific-prev {
+  left: 300px;
   border-radius: 3px 0 0 3px;
 }
 
