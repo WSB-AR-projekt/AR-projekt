@@ -8,10 +8,13 @@ body {
 }
 
 /**
-to "reset" change of color for visited links on all pages
+to "reset" change of color for links on all pages
 */
-html a:visited {
-  color: #fff;
+html a,
+a:link,
+a:visited,
+a:active {
+  color: #fff !important;
 }
 
 .photo-main-container {
@@ -72,13 +75,11 @@ html a:visited {
 
 .photo-class-links:hover {
   background-color: none;
-  color: #fff;
 }
 
 .photo-class-links:hover,
 .photo-class-links:active {
   font-size: 160%;
-  color: #fff;
 }
 
 #actual-active-link {
@@ -162,4 +163,3 @@ html a:visited {
   display: flex;
   flex-direction: column;
 }
-

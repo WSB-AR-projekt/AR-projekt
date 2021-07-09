@@ -9,8 +9,7 @@
 .photo-mainGallery-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
-  height: 180px;
+  justify-content: stretch;
   width: 982px;
   margin-top: 20px;
   transition: 3s;
