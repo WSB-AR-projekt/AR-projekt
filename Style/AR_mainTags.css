@@ -5,6 +5,7 @@
 body {
   background-color: #a8c781;
   box-sizing: border-box;
+  margin-left: 10%;
 }
 
 /**
@@ -21,7 +22,6 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 1024px;
   margin: 0 auto;
 }
 
@@ -29,7 +29,6 @@ a:active {
   display: flex;
   flex-direction: row;
   height: 105px;
-  width: 1024px;
   align-items: stretch;
 }
 
@@ -37,6 +36,7 @@ a:active {
   /**tytuł Andrzej Rokosz*/
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
   height: 100px;
   width: 200px;
   align-items: flex-start;
@@ -60,7 +60,7 @@ a:active {
 }
 
 .photo-class-links {
-  width: 200px;
+  width: 300px;
   line-height: 10px;
   text-align: center;
   text-decoration: none;
@@ -91,7 +91,6 @@ a:active {
 }
 
 .photo-empty-line-container {
-  width: 1024px;
   height: 70px;
   display: flex;
   flex-direction: row;
