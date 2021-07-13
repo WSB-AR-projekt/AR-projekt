@@ -5,6 +5,7 @@
 body {
   background-color: #a8c781;
   box-sizing: border-box;
+  margin-left: 10%;
 }
 
 /**
@@ -160,5 +161,4 @@ a:active {
 .photo-body-container {
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
 }

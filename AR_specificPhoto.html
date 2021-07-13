@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="content-language" content="pl" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta
     name="author"
     content="Anna Wilk, Aleksandra Kondraciuk, Paweł Ślimko"
@@ -70,14 +71,20 @@
           </div>
         
 
-      <div class="photo-specific-original-button">
-        <a href="images/zubry.jpg" class="photo-specific-original-link"
+      <div class="photo-specific-original-container">
+        <button class="photo-specific-original-button"
           >Oryginalny rozmiar
-        </a>
+        </button>
         <div class="photo-specific-original-counter">
           X osób obejrzało zdjęcie w oryginalnym rozmiarze
         </div>
       </div>
+
+      <div class="modal hidden">
+        <button class="photo-close-modal">&times;</button>
+         <img class="photo-modal-img" src = "images/zubry.jpg"></img>
+      </div>
+      <div class="overlay hidden"></div>
 
       <div class="photo-specific-image-details">
     <!--    <summary class="photo-specific-image-summary">
@@ -101,7 +108,7 @@
     </div>
 
     
-  <script src="..." async></script>
+  <script src="Script/originalSizeButton.js" async></script>
   <noscript> Your internet browser is too old. Install new one. </noscript>
 
 </body>
